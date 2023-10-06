@@ -19,5 +19,7 @@ int main(void)
 		putchar(lowercase);
 	}
 
+	putchar('\n');
+
 	return (0);
 }
