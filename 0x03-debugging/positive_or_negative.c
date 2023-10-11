@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * positive_or_negative - returns positive or negative
+ * @i: parameter
  * Return: 0
  */
 
@@ -19,9 +20,7 @@ void positive_or_negative(int i)
 	}
 
 	else
-       	{
+	{
 		printf("%d is %s\n", i, "zero");
 	}
-	
-	return;
 }
