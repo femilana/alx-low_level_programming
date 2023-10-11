@@ -8,28 +8,29 @@
 
 int main(void)
 {
-	int num;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int a = 0;
+	long b = 1, c = 2;
 
-	for (num = 0; num < 50; num++)
+	while (a < 50)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
-
-		fib1 = fib2;
-		fib2 = sum;
-
-		if (num == 49)
+		if (a == 0)
 		{
-
-			printf("\n");
+			printf("%ld", b);
 		}
+		else if (a == 1)
+		{
+			printf(", %ld", c);
+		}
+
 		else
 		{
+			c = c + j;
+			b = c - b;
 
-			printf(", ");
+			printf(", %ld", c);
 		}
+		a++
 	}
-
+	printf("\n");
 	return (0);
 }
