@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		else
 			ptr[a] = s2[a - ls1];
 
-	sout[a] = '\0';
+	ptr[a] = '\0';
 
 	return (ptr);
 }
