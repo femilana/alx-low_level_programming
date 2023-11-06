@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#ifndef ABS
+#ifndef ABS(x)
 #define ABS(x) fabs(x)
 
 #endif
